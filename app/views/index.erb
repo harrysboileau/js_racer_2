@@ -1,12 +1,18 @@
 <div class="container">
   <h1>Welcome to Unicorn Race!</h1>
   <p>Enter your names to play this magical game!</p>
-  <form action="/create_new_game" method="POST" id="player1_name">
-    <label for="player_1_name">player 1: <input type="text" id="player_1_name" name="player1[:name}"></label>
-  </form>
-  <form action="/create_new_game" method="POST" id="player1_name">
-    <label for="player_2_name">player 2: <input type="text" id="player_2_name" name="player2[:name]"></label>
+  <form action="/create_new_game" method="POST" id="player_names">
+    <label for="player_1_name">player 1: <input type="text" id="player_1_name" name="player1_name"></label>
+
+    <label for="player_2_name">player 2: <input type="text" id="player_2_name" name="player2_name"></label>
     <input type="submit">
   </form>
   
+  <a href="http://www.cornify.com" onclick="cornify_add();return false;"> how much do you love unicorns?<img src="http://www.cornify.com/assets/cornify.gif" width="61" height="16" border="0" alt="Cornify" /></a><script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
 </div>
+
+
+
+
+
+

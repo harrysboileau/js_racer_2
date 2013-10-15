@@ -1,6 +1,6 @@
 class Game < ActiveRecord::Base
   
-  has_many :game_plays
-  has_many :games, through: :gameplays
-  
+  has_many :gameplays
+  has_many :players, through: :gameplays
+  belongs_to :winner, class_name: "Player"
 end

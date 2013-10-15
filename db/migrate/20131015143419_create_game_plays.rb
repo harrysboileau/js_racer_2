@@ -1,6 +1,6 @@
 class CreateGamePlays < ActiveRecord::Migration
   def change
-    create_table do |t|
+    create_table :gameplays do |t|
       t.integer :player_id
       t.integer :game_id
 
